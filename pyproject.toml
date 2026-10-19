@@ -1,9 +1,9 @@
 [project]
 name = "robo-ttt"
 version = "0.2.0"
-description = "RoboTTT - Context Scaling for Robot Policies"
+description = "Test-time training memory for the pi0.5 action head"
 authors = [
-    { name = "Phil Wang", email = "lucidrains@gmail.com" }
+    { name = "vruga" }
 ]
 readme = "README.md"
 requires-python = ">= 3.10"
@@ -35,15 +35,13 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://pypi.org/project/robo-ttt/"
-Repository = "https://codeberg.org/lucidrains/robo_ttt"
+Homepage = "https://github.com/vruga/fastflow-ttt"
+Repository = "https://github.com/vruga/fastflow-ttt"
 
 [project.optional-dependencies]
 examples = []
 test = [
-    "pytest",
-    "mimic-video>=0.5.4",
-    "pi-zero-pytorch>=0.5.11"
+    "pytest"
 ]
 
 [tool.pytest.ini_options]
