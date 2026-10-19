@@ -1,0 +1,19 @@
+{
+  "dataset_repo": "vruga/vruga-spell-blocks-vr",
+  "dataset_revision": "33a00ae35edfe65c550a9d88bb3fcce45d3b2923",
+  "dataset_root": "data/spell-blocks",
+  "base_path": "/home/sra/.cache/huggingface/hub/models--lerobot--pi05_base/snapshots/b211f3d44c36b6acfcf7ae94a64e8e96f75a64ba",
+  "output": "/tmp/robo_ttt_pi05_spell_sft",
+  "seed": 42,
+  "batch_size": 1,
+  "accumulation_steps": 8,
+  "workers": 2,
+  "chunk_size": 50,
+  "execution_horizon": 10,
+  "steps": 3000,
+  "lr": 0.000025,
+  "warmup_steps": 100,
+  "schedule_steps": 3000,
+  "eval_every": 250,
+  "save_every": 250
+}

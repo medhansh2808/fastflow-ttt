@@ -1,0 +1,16 @@
+lerobot==0.4.4
+transformers==4.53.3
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+tokenizers==0.21.4
+datasets==4.8.5
+huggingface-hub==0.35.3
+accelerate==1.15.0
+av==15.1.0
+draccus==0.10.0
+numpy==2.5.4
+pandas==3.0.6
+pyarrow==26.0.0
+einops==0.8.2
+safetensors==0.8.0
+pytest==8.4.2
